@@ -223,8 +223,7 @@ See [docs/PROJECT_ROADMAP.md](docs/PROJECT_ROADMAP.md) for the planned validatio
 
 ## 10. Author
 
-**Prince Yadav**  
-M.Sc. Computer Science, University of Delhi
+**Prince Yadav**
 
 GitHub: [@yprincedec](https://github.com/yprincedec)
 
