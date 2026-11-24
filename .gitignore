@@ -1,0 +1,39 @@
+# Python cache and environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local data - never commit the full Jigsaw dataset
+data/
+datasets/
+*.csv
+*.zip
+*.7z
+
+# Model checkpoints and serialized artifacts
+*.pkl
+*.joblib
+*.h5
+*.keras
+*.pt
+*.pth
+saved_model/
+
+# Generated outputs - commit only deliberately reviewed samples
+outputs/*
+!outputs/.gitkeep
+
+reports/*
+!reports/.gitkeep
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
