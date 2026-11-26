@@ -34,9 +34,13 @@ The project has two distinct technical components:
 
 The hash component checks record integrity after hashing. It does not prove who wrote a comment, when it was originally published, or whether the input was authentic.
 
-## 3. Dataset
+## 3. Dataset & Data Sources
 
 The project uses the [Jigsaw Toxic Comment Classification Challenge dataset](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data).
+
+| Dataset | Source | Training records | Purpose |
+|---|---|---:|---|
+| Jigsaw Toxic Comment Classification Challenge | [Kaggle / Jigsaw](https://www.kaggle.com/c/jigsaw-toxic-comment-classification-challenge/data) | 159,571 (standard training file) | Multi-label toxicity classification and evidence-record experiments |
 
 The labelled training file contains the comment identifier, comment text, and six binary target columns. The commonly distributed training file has 159,571 rows; verify the downloaded file's shape in the notebook rather than assuming every copy is identical.
 
@@ -223,7 +227,7 @@ See [docs/PROJECT_ROADMAP.md](docs/PROJECT_ROADMAP.md) for the planned validatio
 
 ## 10. Author
 
-**Prince Yadav**
+**Prince Yadav** — [LinkedIn](https://linkedin.com/in/yprincedec)
 
 GitHub: [@yprincedec](https://github.com/yprincedec)
 
